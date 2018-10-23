@@ -1,0 +1,56 @@
+{
+	"id": "4208b3c4-0636-408e-1f41-f3397822e068",
+	"name": "BusTrip",
+	"description": "",
+	"order": [
+		"a9ba137a-f721-9b4a-0cdb-799ddbdb9af9"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1540255423180,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "a9ba137a-f721-9b4a-0cdb-799ddbdb9af9",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTUzMjAxMzI3MywiaWF0IjoxNTMxNDA4NDczfQ.r-X_Rdyd3wDcUJZKbejOHEzwalqXpSHcOMTLFout29xOkprZ7F5iy0rYGeHx9ydAbaf6Ktx7jNZep3eabr3frA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTUzMjAxMzI3MywiaWF0IjoxNTMxNDA4NDczfQ.r-X_Rdyd3wDcUJZKbejOHEzwalqXpSHcOMTLFout29xOkprZ7F5iy0rYGeHx9ydAbaf6Ktx7jNZep3eabr3frA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:8080/BusTripCharging/v1/submit/transaction",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1540263315359,
+			"name": "ComputeBusTripTransaction",
+			"description": "",
+			"collectionId": "4208b3c4-0636-408e-1f41-f3397822e068",
+			"responses": [],
+			"rawModeData": "[{\n\t\"Id\": 1, \n\t\"dateTimeUTC\": \"2018-10-23T12:04:07.049\", \n\t\"tapType\": \"ON\", \n\t\"stopId\": \"Stop 1\", \n\t\"companyId\": \"Company 1\", \n\t\"busId\": \"Bus 37\", \n\t\"pan\": \"550000555555559\" \n},\n{\n\t\"Id\": 2, \n\t\"dateTimeUTC\": \"2018-10-23T12:09:07.049\", \n\t\"tapType\": \"OFF\", \n\t\"stopId\": \"Stop 2\", \n\t\"companyId\": \"Company 1\", \n\t\"busId\": \"Bus 37\", \n\t\"pan\": \"550000555555559\"\n},\n{\n\t\"Id\": 3, \n\t\"dateTimeUTC\": \"2018-10-23T12:09:07.049\", \n\t\"tapType\": \"ON\", \n\t\"stopId\": \"Stop 1\", \n\t\"companyId\": \"Company 1\", \n\t\"busId\": \"Bus 37\", \n\t\"pan\": \"550000555555556\"\n}]"
+		}
+	]
+}
