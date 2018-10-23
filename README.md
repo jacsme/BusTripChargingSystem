@@ -10,12 +10,14 @@ This project is developed using Java 1.8, Spring Boot, Junit and Mockito and Mav
 - Download Java 1.8 and save it to c:\Program Files\Java\jdk1.8.0_91
 ## Environment Variable:
 - Setup the System Variable with the following:
+	```	
 	-- Variable		| Value	
-	-- CATALINA_HOME   | c:\apache-maven-3.3.9
-	-- M2_HOME			| c:\apache-maven-3.3.9
-	-- M2				| %M2_HOME%\bin
+	-- CATALINA_HOME   	| c:\apache-maven-3.3.9
+	-- M2_HOME		| c:\apache-maven-3.3.9
+	-- M2			| %M2_HOME%\bin
 	-- JAVA_HOME		| c:\Program Files\Java\jdk1.8.0_91
 	-- Path			| %JAVA_HOME%\bin; %M2%;  [add this at the end of the path value]
+	```
 ## Eclipse:
 - Download the latest Eclipse IDE with maven plugins [Oxygen]	
 - Clone this project to your local repository, and import the project to eclipse	- Refresh the project
